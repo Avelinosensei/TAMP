@@ -10,21 +10,23 @@ function Home() {
    )
 
 }
-function contador() {
-   const [contador, setContador ]= useState(1);
+
+function Contador() {
+   const [Contador, setContador ]= useState(1);
+
    function adicionarContador() {
        setContador(contador + 1);
-
    }
+
+
    return (
        <div>
-          <div>
+              <div>
               {contador}
           </div>
+
+
            <button onClick={adicionarContador}>Adicionar</button>
-       </div>
-   )
-
-
-}
+       </div>)
+   }
 export default Home
