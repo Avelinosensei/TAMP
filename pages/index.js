@@ -4,7 +4,7 @@ function Home() {
    return (
       <div>
       <h5>Home5</h5>
-      <contador/>
+      <Contador/>
       <div>Teste</div>
    </div>
    )
@@ -15,14 +15,14 @@ function Contador() {
    const [Contador, setContador ]= useState(1);
 
    function adicionarContador() {
-       setContador(contador + 1);
+       setContador(Contador + 1);
    }
 
 
    return (
        <div>
               <div>
-              {contador}
+              {Contador}
           </div>
 
 
